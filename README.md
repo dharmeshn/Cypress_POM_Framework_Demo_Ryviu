@@ -17,6 +17,18 @@ checks on the main(Homepage) and product details pages of the website.
 3. Open the terminal and navigate to the project directory.
 4. Run `npm init` and `npx i cypress` commands respectively to install the dependencies.
 
+### Running Tests
+
+To run the tests, execute the following command in the terminal:
+
+```
+npx cypress open
+```
+
+- This will open the Cypress Test Runner window to run all the tests in the `cypress/e2e` directory.
+- Select the `E2E Testing` and then select browser `Chrome` (suggested)
+- Select the test file to run a specific test file `Cypress_Task_Ryviu.cy.js`
+
 ### Project Structure
 
 The project structure is as follows:
@@ -55,15 +67,5 @@ The following test cases are included in the framework:
 - `Inform the user there is an item in their cart` - checks if the user is informed that
   there is an item(s) in their cart when a product is added.
 
-### Running Tests
 
-To run the tests, execute the following command in the terminal:
-
-```
-npx cypress open
-```
-
-- This will open the Cypress Test Runner window to run all the tests in the `cypress/e2e` directory.
-- Select the `E2E Testing` and then select browser `Chrome` (suggested)
-- Select the test file to run a specific test file `Cypress_Task_Ryviu.cy.js`
 
