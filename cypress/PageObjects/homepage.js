@@ -7,7 +7,6 @@ const _defaultPopularProducts = '#homefeatured .product-container'
 const _searchBar = '#search_query_top'
 const _searchButton = 'button[name=submit_search]'
 
-
 class Homepage {
 
     static findsDisplayedPopularProductsOnPage() {
