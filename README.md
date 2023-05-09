@@ -2,7 +2,7 @@
 
 Cypress POM Framework for Prestashop.ryviushop.com
 This repository contains a sample Cypress POM (Page Object Model) framework for automating tests on the
-Prestashop.ryviushop.com website. The framework is built using Cypress and JavaScript and is designed to perform
+`Prestashop.ryviushop.com` website. The framework is built using Cypress and JavaScript and is designed to perform
 checks on the main(Homepage) and product details pages of the website.
 
 ### Prerequisites
