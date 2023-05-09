@@ -41,7 +41,7 @@ describe("Test Suite", () => {
 
   });
 
-  it.only('Verify that after adding product to the cart, informs the user there is an item in their cart', () => {
+  it('Verify that after adding product to the cart, informs the user there is an item in their cart', () => {
     utils.visitUrl(testData.ProductUrl)
     productPage.verifyUserIsOnProductDetailsPage()
     productPage.addProductToCart()
