@@ -1,0 +1,7 @@
+{
+  "Url": "https://prestashop.ryviushop.com/",
+  "productToSearch": "blouse",
+  "ProductUrl": "https://prestashop.ryviushop.com/blouses/2-blouse.html?search_query=blouse&results=1",
+  "expectedCartQuantity": 1,
+  "expectedConfirmationMessage": "Product successfully added to your shopping cart"
+}
