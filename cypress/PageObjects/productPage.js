@@ -20,10 +20,11 @@ class ProductPage {
     }
 
     static verifyProductDescriptionShowsOnProductPage() {
+
         cy.get(_productDescription).should('be.visible')
         cy.get(_productDescription).getText().then((text) => {
-            cy.get(_productDescription).should('contain', text)
-            cy.log('Assert that product description is ' + text + ' and it is visible on page')
+            cy.get(_productDescription).should('contain', testData.expectedShortDescription)
+            cy.log('Assert that product description contains ' + text + ' and it is visible on page')
         })
     }
 

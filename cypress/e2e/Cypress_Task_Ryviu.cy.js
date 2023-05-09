@@ -2,9 +2,9 @@
 
 const testData = require('../fixtures/testData.json')
 const utils = require('../support/utils')
-const homepage = require('../PageObjects/homepage.js')
-const searchResultPage = require('../PageObjects/searchResultPage.js')
-const productPage = require('../PageObjects/productPage.js');
+const homepage = require('../pageObjects/homepage.js')
+const searchResultPage = require('../pageObjects/searchResultPage.js')
+const productPage = require('../pageObjects/productPage.js');
 
 
 describe("Test Suite", () => {
@@ -26,7 +26,7 @@ describe("Test Suite", () => {
     searchResultPage.searchBarShowingCorrectResults()
   });
 
-  it('Verify that when user click on product detailed page of the product should open', () => {
+  it('Verify that when user click on product the product detailed page should open', () => {
     homepage.searchProductsInSearchBar()
     searchResultPage.verifyUserIsOnSearchResultPage()
     searchResultPage.searchBarShowingCorrectResults()

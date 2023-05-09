@@ -1,5 +1,5 @@
 class Utils {
-    
+
     static visitUrl(url) {
         cy.visit(url)
     }
@@ -9,6 +9,7 @@ class Utils {
     }
 
     static typeText(locator, text) {
+        // cy.wait(2000)
         cy.get(locator).type(text)
     }
 
