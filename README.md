@@ -1,4 +1,4 @@
-## Cypress task
+## Cypress POM Framework
 
 > The prestashop.ryviushop.com website
 > - from the main page
@@ -7,13 +7,13 @@
 >   - opens a detailed page on a product when clicked
 >- when displaying a product detail page
 >  - contains the correct short description of the product
->  - when adding the product to cart
+>  - when adding the product to the cart
 >  - informs the user there is 1 item in their cart
 
 
-For this task I have created Cypress POM Framework for Prestashop.ryviushop.com
+For this, I have created Cypress POM Framework for Prestashop.ryviushop.com
 This repository contains a sample Cypress POM (Page Object Model) framework for automating tests on the
-Prestashop.ryviushop.com website. The framework is built using Cypress and JavaScript and is designed to perform checks on the main(Homepage) and product details pages of the website.
+Prestashop.ryviushop.com website. The framework is built using Cypress and JavaScript and is designed to perform checks on the website's main(Homepage) and product details pages.
 
 ### Prerequisites
 
